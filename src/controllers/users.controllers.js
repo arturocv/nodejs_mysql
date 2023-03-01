@@ -1,6 +1,4 @@
 import { pool} from '../db.js';
-import bcrypt from 'bcrypt';
-
 
 export const getAudios = async(req, res) => {
     try {
